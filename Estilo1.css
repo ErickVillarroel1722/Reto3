@@ -1,0 +1,156 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(202, 21%, 31%);
+    color: #444141;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #1d8fbd;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* Estilos para la barra de navegación */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    color: #000000;
+  }
+  
+  /* Estilos para la barra de búsqueda */
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input[type="search"] {
+    margin-left: 5px;
+  }
+  
+  /* Estilos para el contenedor principal */
+  .main-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  /* Estilos para el contenedor de imágenes originales */
+  .left-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  /* Estilos para cada imagen */
+  .image-box {
+    width: 200px;
+    background-color: #e0dfe2;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 0px;
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #000; /* Borde negro */
+    box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.3); /* Sombra en el borde */
+  }
+  
+  /* Estilos para el contenedor de imágenes adicionales */
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .extra-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #41515f; /* Cambia el color de fondo aquí */
+  }
+  
+  /* Estilos para cada imagen adicional */
+  .extra-images-container .image-box {
+    width: 200px;
+    background-color: #d2cce0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #1d8fbd;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social-icons a {
+    color: #f0eeee;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    opacity: 0.8;
+  }
+  
+  /* Estilos para la imagen pequeña en el encabezado */
+  .header-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2); /* Sombra para la imagen pequeña */
+  }
